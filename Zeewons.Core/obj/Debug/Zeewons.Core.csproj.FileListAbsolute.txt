@@ -1,0 +1,5 @@
+H:\mvc4 learning\Zeewons\Zeewons.Core\bin\Debug\Zeewons.Core.dll
+H:\mvc4 learning\Zeewons\Zeewons.Core\bin\Debug\Zeewons.Core.pdb
+H:\mvc4 learning\Zeewons\Zeewons.Core\obj\Debug\Zeewons.Core.dll
+H:\mvc4 learning\Zeewons\Zeewons.Core\obj\Debug\Zeewons.Core.pdb
+H:\mvc4 learning\Zeewons\Zeewons.Core\obj\Debug\Zeewons.Core.csprojResolveAssemblyReference.cache

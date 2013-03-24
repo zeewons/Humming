@@ -1,0 +1,39 @@
+﻿@model Zeewons.Admin.Models.UserManageMent.RegisterModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = ViewBag.Check;
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    <fieldset>
+        <legend>Registration</legend>
+        <table>
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Html.Label("UserName")</td>
+                    <td>@Html.TextBoxFor(m => m.UserName)</td>
+                </tr>
+                 <tr>
+                    <td>@Html.Label("Email")</td>
+                    <td>@Html.TextBoxFor(m => m.Email)</td>
+                </tr>
+                 <tr>
+                    <td>@Html.Label("Passwod")</td>
+                    <td>@Html.TextBoxFor(m => m.Password)</td>
+                </tr>
+                 <tr>
+                    <td>@Html.Label("Confirm password")</td>
+                    <td>@Html.TextBoxFor(m => m.ConfirmPassword)</td>
+                </tr>
+                <tr><td colspan="2"><input type="submit" value="Regsiter" /></td></tr>
+            </tbody>
+        </table>
+    </fieldset>
+}
+

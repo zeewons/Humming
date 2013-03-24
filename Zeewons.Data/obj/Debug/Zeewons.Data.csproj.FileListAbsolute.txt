@@ -1,0 +1,7 @@
+H:\mvc4 learning\Zeewons\Zeewons.Data\bin\Debug\Zeewons.Data.dll
+H:\mvc4 learning\Zeewons\Zeewons.Data\bin\Debug\Zeewons.Data.pdb
+H:\mvc4 learning\Zeewons\Zeewons.Data\bin\Debug\EntityFramework.dll
+H:\mvc4 learning\Zeewons\Zeewons.Data\bin\Debug\EntityFramework.xml
+H:\mvc4 learning\Zeewons\Zeewons.Data\obj\Debug\Zeewons.Data.dll
+H:\mvc4 learning\Zeewons\Zeewons.Data\obj\Debug\Zeewons.Data.pdb
+H:\mvc4 learning\Zeewons\Zeewons.Data\obj\Debug\Zeewons.Data.csprojResolveAssemblyReference.cache

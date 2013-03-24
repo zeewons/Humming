@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeewons", "Zeewons\Zeewons.csproj", "{5B75DA35-4EAC-4677-8310-C2E0C6827A05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3AD6FE17-A651-4AA5-8625-029B1A44DCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeewons.Core", "Zeewons.Core\Zeewons.Core.csproj", "{D760C35D-69D9-4C3E-A877-5B384C295647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeewons.Helper", "Zeewons.Helper\Zeewons.Helper.csproj", "{AD26234E-3BD4-4114-9F70-F7553B8012D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeewons.Data", "Zeewons.Data\Zeewons.Data.csproj", "{06B0B431-3847-475D-92CD-874E0F11A720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeewons.Admin", "Zeewons.Admin\Zeewons.Admin.csproj", "{18B86578-8D75-4719-9078-D9D067421A5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B75DA35-4EAC-4677-8310-C2E0C6827A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B75DA35-4EAC-4677-8310-C2E0C6827A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B75DA35-4EAC-4677-8310-C2E0C6827A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B75DA35-4EAC-4677-8310-C2E0C6827A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D760C35D-69D9-4C3E-A877-5B384C295647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D760C35D-69D9-4C3E-A877-5B384C295647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D760C35D-69D9-4C3E-A877-5B384C295647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D760C35D-69D9-4C3E-A877-5B384C295647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD26234E-3BD4-4114-9F70-F7553B8012D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD26234E-3BD4-4114-9F70-F7553B8012D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD26234E-3BD4-4114-9F70-F7553B8012D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD26234E-3BD4-4114-9F70-F7553B8012D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B0B431-3847-475D-92CD-874E0F11A720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B0B431-3847-475D-92CD-874E0F11A720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B0B431-3847-475D-92CD-874E0F11A720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B0B431-3847-475D-92CD-874E0F11A720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B86578-8D75-4719-9078-D9D067421A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B86578-8D75-4719-9078-D9D067421A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B86578-8D75-4719-9078-D9D067421A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B86578-8D75-4719-9078-D9D067421A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D760C35D-69D9-4C3E-A877-5B384C295647} = {3AD6FE17-A651-4AA5-8625-029B1A44DCBF}
+		{AD26234E-3BD4-4114-9F70-F7553B8012D2} = {3AD6FE17-A651-4AA5-8625-029B1A44DCBF}
+		{06B0B431-3847-475D-92CD-874E0F11A720} = {3AD6FE17-A651-4AA5-8625-029B1A44DCBF}
+	EndGlobalSection
+EndGlobal
